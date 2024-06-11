@@ -5,6 +5,7 @@ using namespace std;
 int main(){
 
     int val; // Declaração da variável para armazenar a escolha do usuário
+    int val1;
 
     // Solicita ao usuário que selecione um meio de transporte e fornece opções
     cout << "Selecione um meio de transporte: \n";
