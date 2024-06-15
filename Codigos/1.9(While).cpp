@@ -4,9 +4,9 @@ using namespace std;
 int main() {
     int num = 0; // Inicializa a variável num como 0
     
-    // O loop while continuará executando enquanto a expressão cont++ < 20 for verdadeira.
-    // cont++ incrementa o valor de cont após cada iteração do loop.
-    // Ou seja, a condição é verificada antes de cont ser incrementado.
+    // O loop while continuará executando enquanto a expressão num++ < 20 for verdadeira.
+    // num++ incrementa o valor de num após cada iteração do loop.
+    // Ou seja, a condição é verificada antes de num ser incrementado.
 
     while (num++ < 20) {
         cout << "Deivid Lindao - " << num << "\n"; // Imprime "Deivid Lindao - " seguido pelo valor atual de num
