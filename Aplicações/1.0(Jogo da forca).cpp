@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-
+    
     char palavra[30], letra[1], secreta[30]; // Declaração dos arrays de caracteres
     int tam, i, chances, acertos; // Variáveis inteiras para tamanho da palavra, contadores, chances e acertos
     bool acerto; // Variável booleana para indicar se houve acerto
@@ -73,8 +73,7 @@ int main() {
         // Limpa a tela antes de continuar (ou system("clear") para sistemas Unix-like)
         system("cls");
 
-    }
-     while (opc == 's' || opc == 'S');
+    } while (opc == 's' || opc == 'S');
 
     return 0; // Retorna 0 para indicar que o programa foi executado com sucesso
 }
